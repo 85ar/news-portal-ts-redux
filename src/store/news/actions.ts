@@ -9,7 +9,7 @@ export const setNewsAction = (list: IStore["list"]) => {
   };
 };
 
-export const loadNews = async (dispatch: Dispatch) => {
+export const loadNews = () => async (dispatch: Dispatch) => {
   try {
     const response = await getNews();
 
