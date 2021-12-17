@@ -1,0 +1,28 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 0;
+  margin-bottom: 90px;
+  .title {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  nav {
+    display: flex;
+    width: 284px;
+    justify-content: space-between;
+    a {
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      &.linkActive {
+        color: #004FEC;
+      }
+    }
+  }
+}

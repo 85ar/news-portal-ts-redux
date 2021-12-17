@@ -1,0 +1,24 @@
+.mainFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+  div {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    }
+    .small {
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      &:last-child {
+        text-align: right;
+      }
+    }
+
+}
